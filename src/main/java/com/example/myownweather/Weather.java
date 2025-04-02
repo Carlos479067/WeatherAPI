@@ -76,7 +76,7 @@ public class Weather {
     // toString method
     @Override
     public String toString() {
-        return "Weather { " +
+        return "City Weather Information{ " +
                 "City ID: " + id + " | " +
                 "City Name: " + getCity() + " | " +
                 "Temperature: " + main.getTemp() + " | " +
